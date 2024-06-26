@@ -19,6 +19,11 @@ body {
     background-color: #FFFFFF;
 }
 
+img {
+    display: block;
+
+}
+
 a {
     text-decoration: none;
     color: inherit;
