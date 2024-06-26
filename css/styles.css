@@ -68,9 +68,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
-    margin: 0 auto;
-    max-width: 1158px;
 }
 
 .nav {
@@ -145,7 +142,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin: 0 auto 20px;
+    margin: 0 auto;
 }
 
 .intro-button {
