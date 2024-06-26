@@ -144,6 +144,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto 20px;
 }
 
 .intro-button {
@@ -159,6 +161,10 @@ img {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    display: block;
+    min-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .intro-button:hover,
