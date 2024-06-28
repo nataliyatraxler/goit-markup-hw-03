@@ -149,6 +149,8 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    /* Added max-width to h1 */
 }
 
 .intro-button {
@@ -168,6 +170,8 @@ img {
     height: 56px;
     background-color: #4d5ae5;
     cursor: pointer;
+    border-radius: 4px;
+    /* Added border-radius */
 }
 
 .intro-button:hover,
@@ -367,4 +371,9 @@ img {
     max-width: 264px;
     margin: 0 auto;
     text-align: center;
+}
+
+/* Address item fix */
+.address-item:last-child {
+    margin-right: 0;
 }
