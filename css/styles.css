@@ -80,6 +80,7 @@ img {
 
 .nav {
     display: flex;
+    align-items: center;
     gap: 40px;
     color: #2e2f42;
 }
@@ -122,6 +123,11 @@ img {
     font-style: normal;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
 .address-item {
     font-size: 16px;
     line-height: 1.5;
@@ -137,6 +143,10 @@ img {
     color: #404bbf;
 }
 
+.address-item:last-child {
+    margin-right: 0;
+}
+
 /* Intro styles */
 .intro {
     background-color: #2e2f42;
@@ -150,7 +160,6 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    /* Added max-width to h1 */
 }
 
 .intro-button {
@@ -171,7 +180,6 @@ img {
     background-color: #4d5ae5;
     cursor: pointer;
     border-radius: 4px;
-    /* Added border-radius */
 }
 
 .intro-button:hover,
@@ -371,9 +379,4 @@ img {
     max-width: 264px;
     margin: 0 auto;
     text-align: center;
-}
-
-/* Address item fix */
-.address-item:last-child {
-    margin-right: 0;
 }
