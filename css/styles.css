@@ -80,6 +80,8 @@ img {
 
 .nav {
     display: flex;
+    align-items: center;
+    /* Align items vertically */
     gap: 40px;
     color: #2e2f42;
 }
@@ -106,36 +108,35 @@ img {
 
 .nav-link {
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
-    font-weight: 500;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
+.nav-contact-list {
+    display: flex;
+    gap: 40px;
+    /* Gap between contact items */
 }
 
-.address {
-    margin-top: 10px;
-    font-style: normal;
+.nav-contact-list li {
+    margin-right: 0;
+    /* Reset margin for last item */
 }
 
-.address-item {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.nav-contact-item {
+    font-size: 14px;
+    color: #2e2f42;
 }
 
-.address-link {
-    color: #434455;
+.nav-contact-item:last-child {
+    margin-right: 0;
+    /* Reset margin for last item */
 }
 
-.address-link:hover,
-.address-link:focus {
-    color: #404bbf;
+.nav-item-link {
+    padding: 24px 0;
+    /* Padding inside the links */
 }
+
 
 /* Intro styles */
 .intro {
