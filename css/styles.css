@@ -112,6 +112,21 @@ img {
     font-weight: 500;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-item {
+    margin-right: 0;
+    /* ensure no margin-right for the last item */
+}
+
+.address-link {
+    padding: 24px 0;
+    /* padding for the address link */
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
