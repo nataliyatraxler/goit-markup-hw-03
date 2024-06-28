@@ -95,24 +95,6 @@ img {
     margin-right: 76px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
-
-/* Container styles */
-.container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .logo-color {
     color: #2e2f42;
 }
@@ -144,14 +126,10 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 0;
 }
-
-
 
 .address-link {
     color: #434455;
-    padding: 24px 0;
 }
 
 .address-link:hover,
