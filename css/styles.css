@@ -122,6 +122,17 @@ img {
     font-style: normal;
 }
 
+/* Address styles */
+.address-list {
+    display: flex;
+    gap: 40px;
+    /* Це визначає відступи між пунктами контакту */
+}
+
+.address-item:last-child {
+    margin-right: 0;
+}
+
 .address-item {
     font-size: 16px;
     line-height: 1.5;
@@ -148,7 +159,10 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
     color: #ffffff;
+    
 }
 
 .intro-button {
@@ -162,7 +176,7 @@ img {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     display: block;
     min-width: 169px;
     height: 56px;
