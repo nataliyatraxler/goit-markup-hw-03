@@ -80,6 +80,7 @@ img {
 
 .nav {
     display: flex;
+    align-items: center;
     gap: 40px;
     color: #2e2f42;
 }
@@ -110,6 +111,8 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
+    display: block;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -135,6 +138,11 @@ img {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 /* Intro styles */
