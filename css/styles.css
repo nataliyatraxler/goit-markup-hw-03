@@ -73,10 +73,26 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    width: 1158px;
+    /* Додаємо ширину контейнера */
     margin: 0 auto;
-    max-width: 1158px;
+    /* Центруємо контейнер */
+    padding: 0 15px;
+    /* Додаємо padding для налаштування внутрішніх відступів */
 }
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Додаємо цей рядок для вирівнювання */
+}
+
+.header-nav a {
+    padding: 24px 0;
+    /* Цей рядок замінює або додає padding */
+}
+
 
 .nav {
     display: flex;
