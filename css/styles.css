@@ -347,7 +347,6 @@ img {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
-
 }
 
 .footer-container {
@@ -384,4 +383,22 @@ img {
 /* Address item fix */
 .address-item:last-child {
     margin-right: 0;
+}
+
+/* Section 3 fixes */
+.services-item {
+    flex-basis: calc((100% - 72px) / 4);
+    /* Calculate width based on four items */
+}
+
+.services-item-title {
+    margin-bottom: 8px;
+    /* Add margin-bottom for spacing */
+}
+
+.services-item-container {
+    border-radius: 0 0 4px 4px;
+    /* Add border-radius to bottom corners */
+    border-top: 4px solid #2e2f42;
+    /* Add top border */
 }
