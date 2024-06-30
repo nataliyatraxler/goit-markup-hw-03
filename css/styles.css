@@ -187,6 +187,20 @@ img {
     background-color: #404bbf;
 }
 
+/* Visually hidden */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* Services styles */
 .services {
     background-color: #f4f4fd;
@@ -201,46 +215,27 @@ img {
 .services-item {
     background-color: #ffffff;
     flex: 1 1 calc((100% - 72px) / 4);
-    /* Calculate width based on four items */
+    
 }
 
 .services-item-container {
     padding: 32px;
     border-radius: 0 0 4px 4px;
-    /* Add border-radius to bottom corners */
-    border-top: 4px solid #2e2f42;
-    /* Add top border */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 
 .services-item-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    font-size: 24px;
+    font-weight: 700;
     margin-bottom: 8px;
-    /* Add margin-bottom for spacing */
-    text-align: center;
 }
 
 .services-item-description {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
-}
-
-/* Visually hidden */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
 }
 
 /* Team styles */
