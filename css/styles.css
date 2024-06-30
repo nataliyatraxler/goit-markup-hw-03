@@ -200,13 +200,16 @@ img {
 
 .services-item {
     background-color: #ffffff;
-    flex: 1 1 calc(50% - 24px);
+    flex: 1 1 calc((100% - 72px) / 4);
+    /* Calculate width based on four items */
 }
 
 .services-item-container {
     padding: 32px;
-    border-radius: 0px 0px 4px 4px;
+    border-radius: 0 0 4px 4px;
+    /* Add border-radius to bottom corners */
     border-top: 4px solid #2e2f42;
+    /* Add top border */
 }
 
 .services-item-title {
@@ -216,6 +219,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    /* Add margin-bottom for spacing */
     text-align: center;
 }
 
@@ -225,6 +229,18 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+}
+
+/* Visually hidden */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 /* Team styles */
