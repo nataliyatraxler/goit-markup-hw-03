@@ -187,20 +187,6 @@ img {
     background-color: #404bbf;
 }
 
-/* Visually hidden */
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
 /* Services styles */
 .services {
     background-color: #f4f4fd;
@@ -386,8 +372,40 @@ img {
     text-align: center;
 }
 
+/* Address item last child */
 .address-item:last-child {
     margin-right: 0;
+}
+
+/* Extras styles */
+.extras {
+    background-color: #f4f4fd;
+}
+
+.extras-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.extras-item {
+    background-color: #ffffff;
+    flex: 1 1 calc((100% - 72px) / 4);
+    padding: 32px;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.extras-item-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.extras-item-description {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .services-item {
