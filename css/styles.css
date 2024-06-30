@@ -260,9 +260,9 @@ img {
 .team-item {
     background-color: #FFFFFF;
     flex: 1 1 calc((100% - 3 * 24px) / 4);
-    /* Width of each item */
-    margin-right: 24px;
-    /* Right margin for items */
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .team-item:nth-child(4n) {
@@ -270,10 +270,20 @@ img {
     /* No right margin for every 4th item */
 }
 
-.team-item-container {
-    padding: 32px;
-    border-radius: 0px 0px 4px 4px;
-    border-top: 4px solid #2e2f42;
+.team-img {
+    width: 100%;
+    display: block;
+}
+
+.team-text-container {
+    padding: 32px 16px;
+    /* Додаємо відступи */
+    border: 1px solid #e7e9fc;
+    /* Додаємо рамку */
+    border-top: none;
+    /* Видаляємо верхню рамку */
+    text-align: center;
+    /* Центрування тексту */
 }
 
 .team-name {
