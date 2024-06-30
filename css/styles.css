@@ -209,7 +209,6 @@ img {
 .services-item {
     background-color: #ffffff;
     flex: 1 1 calc((100% - 72px) / 4);
-    /* Або flex-basis: calc((100% - 3 * 24px) / 4) */
     padding: 32px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -254,7 +253,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    /* Gap between items */
+   
 }
 
 .team-item {
@@ -267,7 +266,7 @@ img {
 
 .team-item:nth-child(4n) {
     margin-right: 0;
-    /* No right margin for every 4th item */
+    
 }
 
 .team-img {
@@ -276,14 +275,14 @@ img {
 }
 
 .team-text-container {
-    padding: 32px 16px;
-    /* Додаємо відступи */
+    padding: 32px 0;
+    
     border: 1px solid #e7e9fc;
-    /* Додаємо рамку */
+    
     border-top: none;
-    /* Видаляємо верхню рамку */
+    
     text-align: center;
-    /* Центрування тексту */
+    
 }
 
 .team-name {
@@ -346,15 +345,12 @@ img {
 }
 
 /* Оновлені стилі для контейнера тексту */
+
 .portfolio-text-container {
     padding: 32px 16px;
-    /* Додаємо відступи */
     border: 1px solid #e7e9fc;
-    /* Додаємо рамку */
     border-top: none;
-    /* Видаляємо верхню рамку */
     text-align: center;
-    /* Центрування тексту */
 }
 
 .portfolio-project-title {
