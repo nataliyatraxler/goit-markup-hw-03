@@ -339,13 +339,18 @@ img {
     height: auto;
 }
 
+/* Нові стилі для контейнера тексту */
+.portfolio-text-container {
+    text-align: center;
+    /* Центрування тексту */
+}
+
 .portfolio-project-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -353,7 +358,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
-    text-align: center;
 }
 
 /* Footer styles */
