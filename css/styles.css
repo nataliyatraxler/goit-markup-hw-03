@@ -256,19 +256,20 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    /* Gap between items */
 }
 
 .team-item {
     background-color: #FFFFFF;
-    flex: 1 1 calc(50% - 24px);
-    /* Adjusted for gap */
+    flex: 1 1 calc((100% - 3 * 24px) / 4);
+    /* Width of each item */
     margin-right: 24px;
-    /* Add right margin */
+    /* Right margin for items */
 }
 
-.team-item:last-child {
+.team-item:nth-child(4n) {
     margin-right: 0;
-    /* Remove right margin for the last item */
+    /* No right margin for every 4th item */
 }
 
 .team-item-container {
@@ -294,7 +295,6 @@ img {
     color: #434455;
     text-align: center;
 }
-
 /* Portfolio styles */
 .portfolio {
     background-color: #f4f4fd;
