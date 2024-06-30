@@ -325,12 +325,8 @@ img {
 .portfolio-item {
     background-color: #ffffff;
     flex: 1 1 calc(33.33% - 24px);
-}
-
-.portfolio-item-container {
-    padding: 32px;
     border-radius: 0px 0px 4px 4px;
-    border-top: 4px solid #2e2f42;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-img {
@@ -339,8 +335,14 @@ img {
     height: auto;
 }
 
-/* Нові стилі для контейнера тексту */
+/* Оновлені стилі для контейнера тексту */
 .portfolio-text-container {
+    padding: 32px 16px;
+    /* Додаємо відступи */
+    border: 1px solid #e7e9fc;
+    /* Додаємо рамку */
+    border-top: none;
+    /* Видаляємо верхню рамку */
     text-align: center;
     /* Центрування тексту */
 }
