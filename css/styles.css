@@ -78,7 +78,7 @@ img {
 .nav {
     display: flex;
     align-items: center;
-    gap: 40px;
+    
     color: #2e2f42;
 }
 
@@ -118,7 +118,6 @@ img {
 }
 
 .address {
-    margin-top: 10px;
     font-style: normal;
 }
 
@@ -153,6 +152,9 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     color: #ffffff;
     max-width: 496px;
 }
@@ -165,7 +167,7 @@ img {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    margin-top: 20px;
+    margin: 0 auto;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -196,9 +198,7 @@ img {
 }
 
 /* Services styles */
-.services {
-    background-color: #f4f4fd;
-}
+
 
 .services-list {
     display: flex;
@@ -209,9 +209,6 @@ img {
 .services-item {
     background-color: #ffffff;
     flex: 1 1 calc((100% - 72px) / 4);
-    padding: 32px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 .services-item:first-child {
@@ -219,8 +216,11 @@ img {
 }
 
 .services-item-title {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     margin-bottom: 8px;
 }
 
@@ -277,10 +277,6 @@ img {
 .team-text-container {
     padding: 32px 0;
     
-    border: 1px solid #e7e9fc;
-    
-    border-top: none;
-    
     text-align: center;
     
 }
@@ -304,9 +300,7 @@ img {
 }
 
 /* Portfolio styles */
-.portfolio {
-    background-color: #f4f4fd;
-}
+
 
 .portfolio-container {
     padding-top: 120px;
@@ -334,8 +328,7 @@ img {
 .portfolio-item {
     background-color: #ffffff;
     flex: 1 1 calc(33.33% - 24px);
-    border-radius: 0px 0px 4px 4px;
-    border: 1px solid #e7e9fc;
+
 }
 
 .portfolio-img {
@@ -344,7 +337,7 @@ img {
     height: auto;
 }
 
-/* Оновлені стилі для контейнера тексту */
+
 
 .portfolio-text-container {
     padding: 32px 16px;
@@ -401,8 +394,6 @@ img {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    margin: 0 auto;
-    text-align: center;
 }
 
 .address-item:last-child {
